@@ -14,7 +14,7 @@
 ![clonerepo view](data/view/clonerepo.PNG)
 * Open the project folder with your choice of python IDE
 * Execute below comment to install required python packages.<br>
-        pip install -r requirements.txt
+        `pip install -r requirements.txt`
 
 
 ## Where to download the data?
