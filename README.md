@@ -1,5 +1,5 @@
 ## What is the software requirement?
-* Python 3.7
+* Python 3.7 or above
 
 ## What are the required python packages?
 * PyTorch 1.7.0 (code has GPU support, but can run without)
@@ -8,6 +8,9 @@
 * scipy
 * numpy
 * matplotlib
+* tqdm
+* pmdarima
+* xgboost
 
 ## How to set up the project environment?
 * Clone the project by clicking on the download button<br>
@@ -31,20 +34,27 @@
 * [multistep_others](multistep_others) includes comparison model ARIMA and XGBoost
 
 ### 1. LSTM model:
-To run our LSTM model, go to the [directory](multistep_lstm) and using the command:
+To run our LSTM model, go to the [directory](multistep_lstm) and use the command:
 
-`python run_auto.py --transLearn=False`
+`python run_auto.py`
 
-Argument "transLearn" controls regular model training (set to False) or transfer learning (set to True), more detail about transfer learning will be published in the next coming paper. LA Dataset already includes trained models and ready for transfer learning, user can delete the content inside the LA/output to retrain
+LSTM was also developed to support transfer learning with command
+`python run_auto.py --transLearn`
+
+**Note**: More detail about transfer learning will be published in the next coming paper. LA Dataset already includes trained models and ready for transfer learning, user can delete the content inside the LA/output to retrain.
+
+Model output will be stored in the data/output folder.
 
 ### 2. Other models
-Creat result folder under multistep_others for model output. ARIMA and XGBoost are for model comparison and were not developed for transfer learning.
+Creat result folder under [multistep_others](multistep_others) for model output. ARIMA and XGBoost are for model comparison and were not developed for transfer learning.
 
 #### 2.1 ARIMA
-To run our ARIMA model, go to auto_arima_run.py
+To run our ARIMA model, go to [multistep_others](multistep_others) and use the command
+```python auto_arima_run.py```
 
 #### 2.2 XGBoost
-To run our XGBoost model, go to xgboost_run.py
+To run our XGBoost model, go to [multistep_others](multistep_others) and use the command
+```python xgboost_run.py```
 
 ## Useful links
 * [Tutorial](https://stackabuse.com/time-series-prediction-using-lstm-with-pytorch-in-python/) for LSTM using pytorch
