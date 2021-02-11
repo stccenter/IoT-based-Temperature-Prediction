@@ -38,7 +38,7 @@ To run our LSTM model, go to the [directory](multistep_lstm) and use the command
 
 `python run_auto.py`
 
-LSTM was also developed to support transfer learning with command
+LSTM was also developed to support transfer learning with command <br>
 `python run_auto.py --transLearn`
 
 **Note**: More detail about transfer learning will be published in the next coming paper. LA Dataset already includes trained models and ready for transfer learning, user can delete the content inside the LA/output to retrain.
