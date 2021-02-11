@@ -3,3 +3,6 @@ pandas
 sklearn
 matplotlib
 seaborn
+tqdm
+pmdarima
+xgboost

@@ -49,11 +49,11 @@ Model output will be stored in the data/output folder.
 Creat result folder under [multistep_others](multistep_others) for model output. ARIMA and XGBoost are for model comparison and were not developed for transfer learning.
 
 #### 2.1 ARIMA
-To run our ARIMA model, go to [multistep_others](multistep_others) and use the command
+To run our ARIMA model, go to [multistep_others](multistep_others) and use the command <br>
 ```python auto_arima_run.py```
 
 #### 2.2 XGBoost
-To run our XGBoost model, go to [multistep_others](multistep_others) and use the command
+To run our XGBoost model, go to [multistep_others](multistep_others) and use the command <br>
 ```python xgboost_run.py```
 
 ## Useful links
