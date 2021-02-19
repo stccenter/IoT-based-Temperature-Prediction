@@ -2,14 +2,15 @@
 Created on  12/7/2020
 @author: Jingchao Yang
 """
+import sys
+sys.path.append(r"../multistep_lstm")
 import xgboost as xgb
 from sklearn.multioutput import MultiOutputRegressor
 import pandas as pd
-from sklearn.metrics import mean_squared_error as MSE
 import numpy as np
-from multistep_others import data_helper
-from multistep_lstm import model_train
-from multistep_lstm import multistep_lstm_pytorch
+import data_helper
+import model_train
+import multistep_lstm_pytorch
 from tqdm import tqdm
 from functools import reduce
 
@@ -53,7 +54,7 @@ print(test_data_raw.shape)
 
 '''multivariate'''
 if multi_variate_mode:
-    exp_path = r'D:\IoT_HeatIsland\iotTemp_exp_bak\exp_data\LA'
+    exp_path = r'..\data\LA'
     wu_path = exp_path + r'\WU'
     ext_name = ['humidity', 'windSpeed', 'dewPoint', 'precipProbability', 'pressure', 'cloudCover', 'uvIndex']
     ext_data_path = wu_path + r'\byAttributes'

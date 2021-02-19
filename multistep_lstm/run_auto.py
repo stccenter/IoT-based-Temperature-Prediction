@@ -28,7 +28,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--transLearn', action='store_true', default=False,
-                    help='Validate during training pass.')
+                    help='Do transfer learning if set as argument')
 parser.add_argument('--epochs', type=int, default=15,
                     help='Number of epochs to train.')
 parser.add_argument('--lr', type=float, default=0.001,
@@ -42,6 +42,11 @@ parser.add_argument('--exp_set', type=list, default=[(24, 1), (24, 4)],
 
 args = parser.parse_args()
 
+
+if args.transLearn:
+    print('Training mode: Transfer Learning')
+else:
+    print('Training mode: Local LSTM Training')
 
 '''pytorch'''
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
