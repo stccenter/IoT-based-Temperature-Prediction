@@ -64,3 +64,7 @@ To run our XGBoost model, go to [multistep_others](multistep_others) and use the
 ## Author
 Jingchao Yang <br>
 Email: jyang43@gmu.edu
+## Validated by
+Anusha Srirenganathan <br>
+Email: asrireng@gmu.edu
+
