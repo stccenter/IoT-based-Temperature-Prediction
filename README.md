@@ -52,6 +52,8 @@ Creat result folder under [multistep_others](multistep_others) for model output.
 To run our ARIMA model, go to [multistep_others](multistep_others) and use the command <br>
 ```python auto_arima_run.py```
 
+**Note**: ARIMA does not support any parallelization and can take a long time to finish. To help with the process, a Fast Mode has set to True as default [here](https://github.com/stccenter/IoT-based-Temperature-Prediction/blob/main/multistep_others/auto_arima_run.py#L19), and will only produce a result on randomly selected 3 stations. Change to False to test on the full dataset.
+
 #### 2.2 XGBoost
 To run our XGBoost model, go to [multistep_others](multistep_others) and use the command <br>
 ```python xgboost_run.py```
