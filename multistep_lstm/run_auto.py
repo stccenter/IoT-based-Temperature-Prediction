@@ -4,6 +4,8 @@ Created on  10/2/2020
 
 auto model training and cross region testing with predefined input/prediction combination
 """
+import sys
+sys.path.append(r"../multistep_lstm")
 import matplotlib.pyplot as plt
 import pandas as pd
 import time

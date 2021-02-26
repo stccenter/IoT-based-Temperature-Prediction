@@ -13,6 +13,9 @@ import model_train
 import multistep_lstm_pytorch
 from tqdm import tqdm
 from functools import reduce
+import warnings
+
+warnings.filterwarnings('ignore')
 
 
 def add_variate(station, iot_wu_match_df, ext_data, ext_name):
@@ -113,6 +116,6 @@ for col in tqdm(test_data_raw.columns):
 rmse_by_station_test, mae_by_station_test, rmse_by_hour_test, mae_by_hour_test = model_train.result_evaluation(
     test_pred_orig_dict, gpu=False)
 
-path = r'..\result'
+path = r'.\result'
 rmse_by_station_test.to_csv(path + r'\xgboost_testScores_C.csv')
 np.savetxt(path + r'\xgboost_testScores_C_by_hour.csv', rmse_by_hour_test, delimiter=",")
