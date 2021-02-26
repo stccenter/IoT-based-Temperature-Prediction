@@ -68,3 +68,7 @@ Email: jyang43@gmu.edu
 Anusha Srirenganathan <br>
 Email: asrireng@gmu.edu
 
+## Tutorial video <br/>
+[<img src="https://github.com/stccenter/IoT-based-Temperature-Prediction/blob/main/data/view/thumbnail.jpg" width="60%">](https://youtu.be/HIrH0976zrY)
+
+
