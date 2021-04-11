@@ -59,6 +59,7 @@ To run our XGBoost model, go to [multistep_others](multistep_others) and use the
 ```python xgboost_run.py```
 
 ## Useful links
+* Check out the slides [AAG 2021 Presentation](AAG_2021_IoTbased_Fine-scale_Urban_Temperature_Forecasting_Jingchao.pdf) for more project details.
 * [Tutorial](https://stackabuse.com/time-series-prediction-using-lstm-with-pytorch-in-python/) for LSTM using pytorch
 * [Tutorial](https://www.kaggle.com/sumi25/understand-arima-and-tune-p-d-q) for ARIMA
 * [Tutorial](https://www.kaggle.com/furiousx7/xgboost-time-series) for XGBoost
