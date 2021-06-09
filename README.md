@@ -21,7 +21,7 @@
 
 
 ## Where to download the data?
-* Dataset can be downloaded [here](https://exchangelabsgmu-my.sharepoint.com/personal/jyang43_masonlive_gmu_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fjyang43%5Fmasonlive%5Fgmu%5Fedu%2FDocuments%2Fdissertation%2Ftemperature%20prediction%2Fpaper%20drafting%2Fgit%5Fcode%5Fsup%2Fdata&originalPath=aHR0cHM6Ly9leGNoYW5nZWxhYnNnbXUtbXkuc2hhcmVwb2ludC5jb20vOmY6L2cvcGVyc29uYWwvanlhbmc0M19tYXNvbmxpdmVfZ211X2VkdS9Fbi1UWkxGNFVWQkFxeUN0aXlRT1lNMEJVM2xlRkw0VFNDSmQxOHhvSVhvdkdBP3J0aW1lPWFiRjJFVFhOMkVn). 
+* Dataset can be downloaded [here](https://exchangelabsgmu-my.sharepoint.com/:f:/g/personal/jyang43_masonlive_gmu_edu/En-TZLF4UVBAqyCtiyQOYM0BU3leFL4TSCJd18xoIXovGA?e=b3LTcq). 
 
 **Note**: Please contact the author Jingchao Yang (jyang43@gmu.edu) for direct access if link expires.
 * Place the dataset in the data folder before running the code
